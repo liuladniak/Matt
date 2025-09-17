@@ -1,0 +1,17 @@
+@use "../abstracts" as *;
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Kaku+Gothic+New&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: Work Sans, sans-serif;
+  // font-size: 16px;
+}
+
+body {
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+}

@@ -1,0 +1,130 @@
+@use "../abstracts" as *;
+
+.text-body,
+.text-list {
+  font-family: Work Sans, sans-serif;
+  font-weight: 500;
+  font-size: clamp(18px, 0.5455vw + 15.09px, 24px);
+  letter-spacing: 0.02em;
+  text-align: justify;
+  color: var(--dl-color-landing-text);
+}
+.text-list {
+  padding-left: 28px;
+}
+.list-undecor {
+  list-style: none;
+}
+.text-body--accent {
+  color: #bb6c2e;
+  font-weight: 600;
+}
+.text-body--accent-thin {
+  color: #bb6c2e;
+}
+.lh-125 {
+  line-height: 125%;
+}
+.lh-150 {
+  line-height: 150%;
+}
+.lh-175 {
+  line-height: 175%;
+}
+.text-body--strong {
+  font-weight: 600;
+}
+
+.heading-xl {
+  font-family: Darker Grotesque, sans-serif;
+  font-weight: 600;
+  font-size: clamp(
+    50px,
+    calc(50px + (60 - 50) * ((100vw - 440px) / (1440 - 440))),
+    60px
+  );
+
+  letter-spacing: 0.04em;
+  color: var(--dl-color-landing-text);
+}
+
+.text-underline {
+  text-decoration: underline solid;
+  text-underline-offset: 23.5%;
+  text-decoration-thickness: 13.5%;
+  text-decoration-color: #bb6c2e;
+}
+.text-underline-thick {
+  text-decoration: underline solid;
+  text-underline-offset: 25%;
+  text-decoration-thickness: 15%;
+  text-decoration-color: #bb6c2e;
+}
+
+.HeadingH2 {
+  font-size: clamp(24px, 2.5vw + 4px, 40px);
+  font-style: normal;
+  font-family: Darker Grotesque;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0.04em;
+}
+
+// @font-face {
+//   font-family: "Work Sans";
+//   src: url("/assets/fonts/Work_Sans/WorkSans-Thin.ttf") format("truetype");
+//   font-weight: 100;
+// }
+// @font-face {
+//   font-family: "Work Sans";
+//   src: url("/assets/fonts/Work_Sans/WorkSans-ThinItalic.ttf") format("truetype");
+//   font-weight: 100;
+//   font-style: italic;
+// }
+// @font-face {
+//   font-family: "Work Sans";
+//   src: url("/assets/fonts/Work_Sans/WorkSans-ExtraLight.ttf") format("truetype");
+//   font-weight: 200;
+// }
+
+// @font-face {
+//   font-family: "Work Sans";
+//   src: url("/assets/fonts/Work_Sans/WorkSans-ExtraLightItalic.ttf")
+//     format("truetype");
+//   font-weight: 200;
+//   font-style: italic;
+// }
+// @font-face {
+//   font-family: "Work Sans";
+//   src: url("/assets/fonts/Work_Sans/WorkSans-Light.ttf") format("truetype");
+//   font-weight: 300;
+// }
+// @font-face {
+//   font-family: "Work Sans";
+//   src: url("/assets/fonts/Work_Sans/WorkSans-LightItalic.ttf")
+//     format("truetype");
+//   font-weight: 300;
+//   font-style: italic;
+// }
+// @font-face {
+//   font-family: "Work Sans";
+//   src: url("/assets/fonts/Work_Sans/WorkSans-Regular.ttf") format("truetype");
+//   font-weight: 400;
+// }
+// @font-face {
+//   font-family: "Work Sans";
+//   src: url("/assets/fonts/Work_Sans/WorkSans-Italic.ttf") format("truetype");
+//   font-weight: 400;
+//   font-style: italic;
+// }
+// @font-face {
+//   font-family: "Work Sans";
+//   src: url("/assets/fonts/Work_Sans/WorkSans-Regular.ttf") format("truetype");
+//   font-weight: 400;
+// }
+// @font-face {
+//   font-family: "Work Sans";
+//   src: url("/assets/fonts/Work_Sans/WorkSans-Italic.ttf") format("truetype");
+//   font-weight: 400;
+//   font-style: italic;
+// }
